@@ -1,5 +1,6 @@
 body {
     font-family: "Avenir Next";
+    margin:0px;
 }
 
 body h3 {
@@ -8,6 +9,10 @@ body h3 {
 
 .fa {
     margin-right:5px;
+}
+
+*{
+    box-sizing: border-box;
 }
 /*------------------ここからheader--------------------*/
 
@@ -39,7 +44,12 @@ header h3 {
     padding:10px 20px;
 }
 
+header fa {
+    float:right;
+    display:none;
 
+
+}
 
 
 /*---------------------ここからmain-1-------------------*/
@@ -61,12 +71,52 @@ header h3 {
 }
 
 .main-2 .container {
-    height:1000px;
+    height:650px;
     padding:0px 40px;
 }
 
 .main-2 h3 {
-    font-size:30px;
-    padding:15px 0px;
+    font-size:25px;
+    margin:0px;
+    padding:30px 0px 15px 0px;
     border-bottom:2px solid silver;
 }
+
+
+
+
+
+/*----------------------ここからfooter--------------*/
+
+footer {
+    height:120px;
+    width:100%;
+    background-color:#f5deb3;
+}
+
+footer .container {
+    text-align:center;
+    margin:0px;
+}
+
+footer h2 {
+    margin:0px;
+}
+
+footer .logo {
+    color:#696969;
+}
+
+
+
+
+/*---------------------ここからレスポンス---------------*/
+
+@media (max-width:670px) {
+  header h3 {
+    display:none;
+  }
+
+
+}
+
